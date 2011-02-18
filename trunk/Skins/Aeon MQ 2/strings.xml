@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <!-- $Revision: 270$ -->
 <!-- Übersetzer: TomPiXX -->
-<!-- Stand der Übersetzung: 17.02.2011 -->
-	<!-- Eingerückte Zeilen (leider die meisten) sind noch unklar in ihrer Übersetzung. Diese Strings müssen in ihrer Erscheinung direkt in der Skin-Ansicht geprüft werden -->
+<!-- Stand der Übersetzung: 18.02.2011 -->
+	<!-- Eingerückte Zeilen sind noch unklar in ihrer Übersetzung. Diese Strings müssen in ihrer Erscheinung direkt in der Skin-Ansicht geprüft werden -->
 <!--  Strings 31000 bis 31999 reserviert für Skin  -->
 <strings>
 		<string id="31001">N/A</string>
 	<string id="31002">STUMM</string>
-		<string id="31004">RESET[CR]BACKDROP</string>
+	<string id="31004">HINTERGRUND[CR]ZURÜCKSETZEN</string>
 	<string id="31005">ELEMENTE</string>
 	<string id="31006">AKTUELLE WIEDERGABE</string>
 	<string id="31007">PAUSE</string>
@@ -28,7 +28,7 @@
 	<string id="31019">HERUNTERFAHREN</string>
 	<string id="31020">ANWENDUNGEN</string>
 	<string id="31021">FAVORITEN</string>
-		<string id="31022">SHOWS</string>
+	<string id="31022">KONZERTE</string>
 	<string id="31023">ANWENDUNGEN</string>
 	<string id="31024">ADD-ONS</string>
 	<string id="31025">TRAILER</string>
@@ -59,31 +59,31 @@
 <!-- Media Window options -->
 
 	<string id="31042">LIGHT</string>
-	<string id="31043">NIGHT</string>
-	<string id="31044">ART</string>
-	<string id="31045">THUMB</string>
+	<string id="31043">ABDUNKELN</string>
+	<string id="31044">FANART</string>
+	<string id="31045">VORSCHAU</string>
 	<string id="31046">PLOT</string>
-	<string id="31047">LAYOUT</string>
-	<string id="31048">TRIGGER</string>
-	<string id="31049">AUTO</string>
+	<string id="31047">DARSTELLUNG</string>
+		<string id="31048">AUSLÖSER</string>
+	<string id="31049">AUTOMATISCH</string>
 	<string id="31050">ANSICHT:</string> 
 	<string id="31051">ZUFALL</string>
-	<string id="31052">DICK</string> 
-	<string id="31053">DÜNN</string> 
+		<string id="31052">DICK</string> 
+	<string id="31053">TRANSPARENT</string> 
 	<string id="31054">SETUP</string> 
-	<string id="31055">STACK</string> 
+	<string id="31055">STAPELN</string> 
 	<string id="31056">THUMB: SQUARE</string>
-	<string id="31057">FILES</string>
-	<string id="31058">HIDE WATCHED</string>
+	<string id="31057">DATEIEN</string>
+	<string id="31058">GESEHENE AUSBLENDEN</string>
 	<string id="31059">THUMB: POSTER</string>
-	<string id="31060">MEDIA FLAGS</string>
+	<string id="31060">MEDIENINFOS</string>
 	<string id="31061">FLOW</string>
 	<string id="31062">STAFFEL</string>
 	<string id="310621">ALLE STAFFELN</string>
 	<string id="31063">EPISODE</string>
 	<string id="31064">FANART</string>
 	<string id="31065">TAFEL</string>
-	<string id="31066">WATCHED FLAG</string>
+	<string id="31066">'GESEHEN' INFO</string>
 	<string id="31067">FANART</string>
 	<string id="31068">BIBLIOTHEK</string>
 	<string id="31069">FLAGS</string>
@@ -91,25 +91,25 @@
 	<string id="31071">SLIM</string>
 	<string id="31072">FULL</string>
 	<string id="31073">STANDARD</string>
-	<string id="31074">MAX</string>
+	<string id="31074">MAXIMIERT</string>
 	<string id="31075">LAYOUT</string>
-	<string id="31076">GRID</string>
-	<string id="31077">ON</string>
-	<string id="31078">OFF</string>
+	<string id="31076">GITTER</string>
+	<string id="31077">AKTIV</string>
+	<string id="31078">INAKTIV</string>
 	<string id="31079">AUTOHIDE</string>
 	<string id="310791">HORIZONTAL</string>
 	<string id="310792">VERTIKAL</string>
 	<string id="310797">LIGHT</string>
-	<string id="310798">NIGHT</string>
+	<string id="310798">ABDUNKELN</string>
 	<string id="310799">HIDE</string>
 	<string id="310800">SHOW</string>
-	<string id="310801">AUTO INFO</string>
-	<string id="310802">EXTRA INFO</string>
+	<string id="310801">AUTOMATISCHE INFOS</string>
+	<string id="310802">ZUSATZINFOS</string>
 	<string id="310803">SEITE</string>
-	<string id="310804">THUMBS</string>
+	<string id="310804">VORSCHAU</string>
 	<string id="310805">FANART</string>
-	<string id="310806">EXTRATHUMBS</string>
-	<string id="310807">MEDIA CASE</string>
+	<string id="310806">ZUSATZVORSCHAU</string>
+	<string id="310807">MEDIENHÜLLEN</string>
 	<string id="310808">GRÖßE</string>
 	<string id="310809">KLEIN</string>
 	<string id="310810">NORMAL</string>
@@ -122,142 +122,142 @@
 	<string id="310817">4 SEKUNDEN</string>
 	<string id="310818">5 SEKUNDEN</string>
 	<string id="310819">MODUS</string>
-	<string id="310820">VIDEO OPTIONS</string>
+	<string id="310820">VIDEOEINSTELLUNGEN</string>
 	<string id="310821">SET</string>
 	<string id="310822">HINTERGRUND</string>
-	<string id="310823">COLLECTION</string>
-	<string id="310824">MISCELLANEOUS OPTIONS</string>
-	<string id="310825">LIST MAX</string>
-	<string id="310826">INFO MODE</string>
-	<string id="310827">MEDIA PANEL</string>
-	<string id="310828">MEDIA MENU ANIMATION</string>
-	<string id="310829">FIXED LIST</string>
-	<string id="310830">MEDIA FLAGS AUTO</string>
+	<string id="310823">BIBLIOTHEK</string>
+	<string id="310824">ALLGEMEINE OPTIONEN</string>
+	<string id="310825">LISTE MAXIMIERT</string>
+	<string id="310826">INFORMATIONSMODUS</string>
+	<string id="310827">MEDIENMENÜ</string>
+	<string id="310828">MEDIENMENÜ ANIMIEREN</string>
+	<string id="310829">FIXIERTE LISTE</string>
+	<string id="310830">AUTOMATISCHE MEDIENINFOS</string>
 	<string id="310831">HINTERGRUND</string>
-	<string id="310832">BANNER: DEFAULT</string>
-	<string id="310833">BANNER: ALTERNATIVE</string>
-	<string id="310834">THUMB: EPISODE</string>
-	<string id="310835">THUMB: LANDSCAPE</string>
+	<string id="310832">BANNER: STANDARD</string>
+	<string id="310833">BANNER: ALTERNATIV</string>
+	<string id="310834">VORSCHAU: EPISODE</string>
+	<string id="310835">VORSCHAU: FANART</string>
 	
 <!-- Aeon Customisation Virtual Home page labels -->
   
-	<string id="31080">BACKDROPS</string>
-	<string id="31081">CHANGE BACKDROPS</string>
-	<string id="31082">MOVE LEFT/RIGHT TO BROWSE, SELECT TO CHANGE[CR]SELECT ARROW BELOW TO ACCESS THE SUBMENU</string>
-	<string id="31083">CUSTOM BACKGROUNDS</string>
-	<string id="31084">CHOOSE BACKDROP TYPE</string>
-	<string id="31085">MOVE UP FOR SINGLE BACKDROP, DOWN FOR SLIDESHOW FOLDER</string>
-	<string id="31086">SHORTCUTS</string>
-	<string id="31087">TOGGLE MAIN MENU SHORTCUTS AND SUBMENU</string>
-	<string id="31088">MOVE LEFT/RIGHT TO BROWSE, SELECT TO TOGGLE</string>
-	<string id="31089">FURNITURE</string>
-	<string id="31090">ARRANGE HOME PAGE OBJECTS</string>
-	<string id="31091">MOVE LEFT/RIGHT TO BROWSE, SELECT TO RELOCATE</string>
-	<string id="31092">SELECT TO RELOCATE MAIN MENU AND RECENTLY ADDED</string>
-	<string id="31093">SELECT TO COUPLE TIME PANEL</string>
-	<string id="31094">SELECT TO UNCOUPLE TIME PANEL</string>
-	<string id="31095">SELECT TO COUPLE RSS FEED</string>
-	<string id="31096">SELECT TO UNCOUPLE RSS FEED</string>
-	<string id="31097">PURGE SETTINGS</string>
-	<string id="31098">CLEAR HOME SETTINGS</string>
-	<string id="31099">MOVE LEFT/RIGHT TO PRIME BUTTON</string>
-	<string id="31100">CAUTION: THIS PROCESS IS IRREVERSIBLE</string>
-	<string id="31101">MOVE ANYWHERE TO CANCEL, SELECT TO PROCEED</string>
-	<string id="31102">CHOOSE</string>
-	<string id="31103">BACKDROP TYPE</string>
-	<string id="31104">TOGGLE SHORTCUT</string>
-	<string id="31104">TOGGLE SHORTCUT - MAIN MENU</string>
-	<string id="311041">TOGGLE SHORTCUT - SUBMENU</string>
+	<string id="31080">HINTERGRÜNDE</string>
+	<string id="31081">HINTERGRUND ÄNDERN</string>
+	<string id="31082">NACH LINKS / RECHTS ZUM WÄHLEN / BESTÄTIGEN ZUM WECHSELN[CR]NACH UNTEN UM ZUM UNTERMENÜ ZU GELANGEN</string>
+	<string id="31083">EIGENE HINTERGRÜNDE</string>
+	<string id="31084">ART DES HINTERGRUNDS WÄHLEN</string>
+	<string id="31085">NACH OBEN FÜR EINZELNES BILD / NACH UNTEN FÜR DIASCHAU</string>
+		<string id="31086">SHORTCUTS</string>
+	<string id="31087">ZWISCHEN HAUPTMENÜ UND UNTERMENÜ UMSCHALTEN</string>
+	<string id="31088">NACH LINKS / RECHTS ZUM WÄHLEN / BESTÄTIGEN ZUM WECHSELN</string>
+		<string id="31089">FURNITURE</string>
+	<string id="31090">OBJEKTE DER HAUPTSEITE POSITIONIEREN</string>
+	<string id="31091">NACH LINKS / RECHTS ZM WÄHLEN / BESTÄTIGEN ZUM VERSETZEN</string>
+	<string id="31092">AUSWÄHLEN UM DAS HAUPTMENÜ UND DIE INFOTABELLE 'NEUE MEDIEN' ZU VERSETZEN</string>
+	<string id="31093">AUSWÄHLEN UM DIE ZEITLEISTE ANZUKOPPELN</string>
+	<string id="31094">AUSWÄHLEN UM DIE ZEITLEISTE ABZUTRENNEN</string>
+	<string id="31095">AUSWÄHLEN UM DEN NACHRICHTENTICKER ANZUKOPPELN</string>
+	<string id="31096">AUSWÄHLEN UM DEN NACHRICHTENTICKER ABZUTRENNEN</string>
+	<string id="31097">EINSTELLUNGEN ZURÜCKSETZEN</string>
+	<string id="31098">EINSTELLUNGEN ZURÜCKSETZEN</string>
+	<string id="31099">NACH LINKS / RECHTS ZUM AKTIVIEREN</string>
+	<string id="31100">ACHTUNG: DIESER VORGANG IST IRREVERSIBEL!</string>
+	<string id="31101">RICHTUNGSTASTEN ZUM ABBRECHEN / AUSWÄHLEN ZUM FORTSETZEN</string>
+	<string id="31102">HINTERGRUND FÜR</string>
+	<string id="31103">FESTLEGEN</string>
+	<string id="31104">MENÜPUNKT WECHSELN</string>
+	<string id="31104">MENÜPUNKT WECHSELN - HAUPTMENÜ</string>
+	<string id="311041">MENÜPUNKT WECHSELN - UNTERMENÜ</string>
 	<string id="311042">THESE OPTIONS MAY TAKE A FEW SECONDS TO LOAD, PLEASE WAIT</string>
 	<string id="311043">SHORTCUTS AND BACKGROUNDS</string>
-	<string id="311044">MOVE UP/DOWN TO BROWSE, SELECT TO CHANGE</string>
-	<string id="311045">MENU OPTIONS</string>
-	<string id="311046">PLAYBACK</string>
+	<string id="311044">NACH OBEN / UNTEN ZUM WÄHLEN / MIT AUSWAHL BESTÄTIGEN</string>
+	<string id="311045">MENÜOPTIONEN</string>
+	<string id="311046">WIEDERGABE</string>
 	<string id="311047">CREATE AND EDIT NEW MENUS AND NEW SUBMENUS</string>
-  <string id="31105">WETTER / UHRZEIT</string>
-  <string id="31106">STILE / FARBEN</string>
-  <string id="31107">CHOOSE STYLE AND COLOR FROM MAIN MENU</string>
-  <string id="31108">HORIZONZ</string>
-  <string id="31109">DARKNESS</string>
-  <string id="31110">CLASSIC</string>
-  <string id="31111">STYLE</string>
-  <string id="31112">TO SET INDIVIDUALLY UNCHECK 'STYLE OF RECENTLY ADDED EQUAL MENU BAR'</string>
+	<string id="31105">WETTER / UHRZEIT</string>
+	<string id="31106">STILE / FARBEN</string>
+	<string id="31107">STIL UND FARBE DES HAUPTMENÜS FESTLEGEN</string>
+	<string id="31108">HORIZONZ</string>
+	<string id="31109">DARKNESS</string>
+	<string id="31110">CLASSIC</string>
+	<string id="31111">STIL</string>
+  <string id="31112">ZUR INDIVIDUELLEN ANPASSUNG, OPTION FÜR PASSENDES DESIGN ZUM HAUPTMENÜ DEAKTIVIEREN</string>
   <string id="31113">SELECT TO ALLOCATE THE RECENTLY ADDED BELOW THE MENU BAR</string>
   <string id="31114">SELECT TO ALLOCATE THE RECENTLY ADDED ABOVE THE MENU BAR</string>
-  <string id="31115">CURRENT STYLE</string>
-  <string id="31116">MOVE UP TO BROWSE, SELECT TO CHANGE</string>
+  <string id="31115">AKTUELLER STIL</string>
+	<string id="31116">NACH OBEN ZUM WÄHLEN / BESTÄTIGEN ZUM ÄNDERN</string>
   <string id="31117">SELECT TO COUPLE LIBRARY STATS</string>
 	<string id="31118">SELECT TO UNCOUPLE LIBRARY STATS</string>
-	<string id="31119">CHOOSE A TYPE</string>
+	<string id="31119">STILRICHTUNG FESTLEGEN</string>
 
-<!-- Aeon Customisation Menu labels -->
+	<!-- Aeon Anpassungen -->
   
-	<string id="31120">BACKDROPS</string>
-	<string id="31121">AEON ANPASSEN</string>
-	<string id="31122">VERKNÜPFUNGEN</string>
-	<string id="31123">POPULATE HOME MENU</string>
-	<string id="31124">FURNITURE</string> 
-	<string id="31125">TIME, RSS AND RECENTLY ADDED</string>
-	<string id="31126">PURGE</string> 
-	<string id="31127">EIGENE EINSTELLUNGEN ZURÜCKSETZEN</string>
+	<string id="31120">HINTERGRÜNDE</string>
+	<string id="31121">PASSEND ZU DEN MENÜPUNKTEN</string>
+	<string id="31122">MENÜPUNKTE</string>
+	<string id="31123">HAUPTMENÜ ANPASSEN</string>
+	<string id="31124">ELEMENTE</string> 
+	<string id="31125">UHRZEIT, RSS UND NEUE MEDIEN</string>
+	<string id="31126">ZURÜCKSETZEN</string> 
+		<string id="31127">STANDARDWERTE SETZEN</string>
 	<string id="31128">OSD</string>
 	<string id="31129">DESIGNS</string>
 	<string id="31130">DESIGN AUSWÄHLEN</string>
 
-<!-- XBMC Settings Menu labels -->
+	<!-- XBMC Einstellungsmenü -->
   
 	<string id="31140">VIDEO</string>
-	<string id="31141">PLAYBACK AND LIBRARY</string>
-	<string id="31142">MUSIC</string>
-	<string id="31143">PLAYBACK AND LIBRARY</string>
-	<string id="31144">PROGRAMS</string>
-	<string id="31145">GAMES AND APPLICATIONS</string>
-	<string id="31146">PICTURES</string>
-	<string id="31147">BROWSER AND SLIDESHOW</string>
-	<string id="31148">WEATHER</string>
-	<string id="31149">LOCATION AND APPEARANCE</string>
-	<string id="31150">NETWORK</string>
-	<string id="31151">LOCAL AND INTERNET</string>
+	<string id="31141">WIEDERGABE UND BIBLIOTHEK</string>
+	<string id="31142">MUSIK</string>
+	<string id="31143">WIEDERGABE UND BIBLIOTHEK</string>
+	<string id="31144">ANWENDUNGEN</string>
+	<string id="31145">SPIELE UND ANWENDUNGEN</string>
+	<string id="31146">BILDER</string>
+	<string id="31147">DATEIEN UND DIASCHAU</string>
+	<string id="31148">WETTER</string>
+	<string id="31149">GEBIET UND DIENST</string>
+	<string id="31150">NETZWERK</string>
+	<string id="31151">LAN UND INTERNET</string>
 	<string id="31152">SYSTEM</string>
-	<string id="31153">CACHE AND HARDWARE</string>
-	<string id="31154">APPEARANCE</string>
-	<string id="31155">INTERFACE AND DISPLAY</string>
-	<string id="31156">MAIN MENU</string>
-	<string id="31157">EDIT THE MAIN MENU</string>
-	<string id="31158">ADVANCED</string>
-	<string id="31159">EXTENDED AEON OPTIONS</string>
-	<string id="31160">PROFILES</string>
-	<string id="31161">USER ACCOUNTS</string>
-	<string id="31162">LOGIN SCREEN</string>
-	<string id="31163">OPTIONS</string>
-	<string id="31164">LOGIN SCREEN</string>
-	<string id="31165">USERS</string>
-	<string id="31166">MANAGE PROFILES</string>
-	<string id="31167">VISUALIZATIONS</string>
-	<string id="31168">MEDIA BROWERS</string>
+	<string id="31153">HARDWARE UND ENERGIE</string>
+	<string id="31154">DARSTELLUNG</string>
+	<string id="31155">SKIN UND SPRACHE</string>
+	<string id="31156">HAUPTMENÜ</string>
+	<string id="31157">NAVIGATION UND OPTIK</string>
+	<string id="31158">ERWEITERT</string>
+	<string id="31159">LEISTUNG UND EXTRAS</string>
+	<string id="31160">PROFILE</string>
+	<string id="31161">BENUTZER UND ANMELDUNG</string>
+	<string id="31162">ANMELDEBILDSCHIRM</string>
+	<string id="31163">OPTIONEN</string>
+	<string id="31164">ANMELDEBILDSCHIRM</string>
+	<string id="31165">BENUTZER</string>
+	<string id="31166">PROFILE VERWALTEN</string>
+	<string id="31167">VISUALISIERUNGEN</string>
+	<string id="31168">MEDIENBIBLIOTHEKEN</string>
 
-<!--  Button / Shutdown Menu  --> 
+	<!--  Kontextmenü / Systemmenü  --> 
 
-	<string id="31200">SETTINGS</string> 
-	<string id="31201">CUSTOMISE</string>
-	<string id="31202">ASSISTANT</string> 
-	<string id="31203">HOME VISUALS (VIDEO): OFF</string>
-	<string id="31204">HOME VISUALS (VIDEO): ON</string>
-	<string id="312030">HOME VISUALS (AUDIO): OFF</string>
-	<string id="312040">HOME VISUALS (AUDIO): ON</string> 	
-	<string id="31206">SHUTDOWN TIMER</string> 
-	<string id="31207">RESTART</string> 
-	<string id="31208">SHUTDOWN</string>
-	<string id="31209">SIGN OUT</string>
-	<string id="31210">EJECT</string>
+	<string id="31200">EINSTELLUNGEN</string> 
+	<string id="31201">ANPASSUNGEN</string>
+		<string id="31202">ASSISTANT</string> 
+		<string id="31203">HOME VISUALS (VIDEO): OFF</string>
+		<string id="31204">HOME VISUALS (VIDEO): ON</string>
+		<string id="312030">HOME VISUALS (AUDIO): OFF</string>
+		<string id="312040">HOME VISUALS (AUDIO): ON</string> 	
+		<string id="31206">SHUTDOWN TIMER</string> 
+	<string id="31207">NEU STARTEN</string> 
+	<string id="31208">HERUNTERFAHREN</string>
+	<string id="31209">ABMELDEN</string>
+	<string id="31210">DISC AUSWERFEN</string>
 
-<!--  Shutdown Submenu  --> 
+	<!--  Shutdown Submenu  --> 
 
-	<string id="31211">REBOOT</string> 
-	<string id="31212">SUSPEND</string> 
-	<string id="31213">HIBERNATE</string>
-	<string id="31214">OFF TIMER</string>
-	<string id="31215">POWER OFF</string>
+	<string id="31211">NEU STARTEN</string> 
+	<string id="31212">ENERGIESPARMODUS</string> 
+	<string id="31213">RUHEZUSTAND</string>
+		<string id="31214">OFF TIMER</string>
+	<string id="31215">AUSSCHALTEN</string>
 
 <!--  Set Content / Add Source dialogs  --> 
   
@@ -266,30 +266,30 @@
 	<string id="31222">CHOOSE A NAME FOR THIS SHARE</string>
 	<string id="31223">LIST</string>
 	
-<!-- Aeon Advanced Menu labels -->
+	<!-- Erweitertes / Aeon Optionsmenü -->
   
 	<string id="31230">AEON MQ 2</string> 
-	<string id="31231">OPTIONS</string>
-	<string id="31232">GENERAL</string>
-	<string id="31233">GLOBAL SETTINGS</string>
-	<string id="31234">VISUAL</string>
-	<string id="31235">FRONT PAGE OPTIONS</string>
-	<string id="312351">WIDGETS</string>
+	<string id="31231">OPTIONEN</string>
+	<string id="31232">ALLGEMEIN</string>
+	<string id="31233">ALLGEMEINE EINSTELLUNGEN</string>
+	<string id="31234">VISUELLES</string>
+	<string id="31235">OBJEKTE UND EFFEKTE</string>
+	<string id="312351">OBJEKTE</string>
 	<string id="31236">VIEWS</string>
 	<string id="31237">MEDIA INFO</string>
 	<string id="31240">FANART</string>
 	<string id="31241">CONTEXTUAL ARTWORK</string>
-	<string id="31242">PERFORMANCE</string>
+	<string id="31242">LEISTUNG</string>
 	<string id="31244">MENUS</string>
-	<string id="31245">BROWSING LAYOUT</string>
-	<string id="31247">(DE)ACTIVATE VIEW TYPES</string>
-	<string id="312471">MOVIES</string>
-	<string id="312472">MUSIC</string>
-	<string id="312473">TV SHOWS</string>
-	<string id="312474">VIEWTYPE OPTIONS</string>
+	<string id="31245">DARSTELLUNG DURCHSUCHEN</string>
+	<string id="31247">(DE)AKTIVIERTE DARSTELLUNGEN</string>
+	<string id="312471">FILME</string>
+	<string id="312472">MUSIK</string>
+	<string id="312473">TV-SERIEN</string>
+	<string id="312474">DARSTELLUNG</string>
 	<string id="312475">CUSTOMIZE VIEWTYPES</string>
 	<string id="312476">VISUALISATION/OSD</string>
-	<string id="312477">SHOWS</string>
+	<string id="312477">KONZERTE</string>
 	<string id="312478">TRAILERS</string>
 	<string id="31248">MENU ITEMS</string>
 	<string id="312480">CREATE OWN MENU ITEMS</string>
@@ -297,7 +297,7 @@
 	<string id="31255">36 HOUR </string>
 	<string id="31256">WEEKEND</string>
 	<string id="31257">ANIMATE</string>
-	<string id="31258">SUBMENU</string>
+	<string id="31258">UNTERMENÜ</string>
 	<string id="31259">(DE)ACTIVATE ITEMS</string>
 	<string id="312571">7 DAY</string>
 	<string id="312572">ALERTS</string>
@@ -306,15 +306,15 @@
 	<string id="312575">Press ENTER to see trailer</string>
 	<string id="312576">Press RIGHT to play trailer</string>
   
-<!-- Aeon Advanced options -->
+	<!-- Erweiterte Optionen für Aeon -->
 
 	<string id="31249">MEDIA FLAGS TOGGLE</string>
 	<string id="31250">MULTIPLEX/SHOWCASE LAYOUT (FANART, PLOT, THUMBSHOW)</string>
 	<string id="31251">MULTIPLEX/SHOWCASE INFO TOGGLE (ON, OFF, AUTO, TRIGGER)</string>
 	<string id="312511">MULTIWALL INFO TOGGLE (ON, OFF, AUTO, TRIGGER)</string>
-	<string id="31252">GRADIENT EFFECT FOR HOME MENU BAR</string>
+	<string id="31252">FARBVERLAUF IN DER HAUPTMENÜLEISTE</string>
 	<string id="31253">LINK GAMES SHORTCUT TO 'LAUNCHER' PLUGIN</string>
-	<string id="312541">SHOW CDART MOD ON HOME SCREEN</string>
+	<string id="312541">CDART ANZEIGEN</string>
 	<string id="31261">HOME PAGE WEATHER POP-UP</string>
 	<string id="31262">CONTEXTUAL ARTWORK (FANART) FOR MUSIC</string>
 	<string id="31264">CONTEXTUAL ARTWORK (FANART) FOR MOVIES</string>
@@ -322,17 +322,17 @@
 	<string id="31266">CONTEXTUAL ARTWORK FOR PICTURES</string>
 	<string id="31268">SHOW RSS / NOW PLAYING IN WALL VIEW</string>
 	<string id="312694">PLAY USING CINEMA EXPERIENCE (NEEDS CINEMA EXPERIENCE SCRIPT)</string>
-	<string id="312695">ENABLE TRAILER BUTTON</string>
+	<string id="312695">'TRAILER' SCHALTFLÄCHE</string>
 	<string id="312696">ENABLE THUMBS FOR TRAILER VIEWS (USES FANART IF DISABLED)</string>
 	<string id="312700">USE MOVIE GENRE ICONS</string>
 	<string id="312701">USE MOVIE GENRE FANART</string>
 	<string id="312702">USE MUSIC GENRE ICONS</string>
 	<string id="312703">USE MUSIC GENRE FANART</string>
-	<string id="312704">USE ANIMATED BACKGROUNDS</string>
+	<string id="312704">ANIMIERTE HINTERGRÜNDE VERWENDEN</string>
 	<string id="312705">USE YEAR ICONS</string>
-	<string id="312706">SHOW RSS</string>
-	<string id="312707">SHOW ICON OF WEATHER BESIDE DATA</string>
-	<string id="312708">SHOW DATE/TIME</string>
+	<string id="312706">NACHRICHTENTICKER ANZEIGEN</string>
+	<string id="312707">WETTERSYMBOL NEBEN DEN WETTERDATEN ANZEIGEN</string>
+	<string id="312708">DATUM UND UHRZEIT ANZEIGEN</string>
 	<string id="31271">FADE PANEL/LIST VIEW MENUS WHEN INACTIVE</string>
 	<string id="31272">SHOW TAGLINE IN MULTIPLEX</string>
 	<string id="31273">ACTIVATE STARTUP PLAYLIST</string>
@@ -340,7 +340,7 @@
 	<string id="31275">CLEARART THUMBS FOR TV SHOWS (OFF FOR STANDARD POSTER)</string>
 	<string id="31276">USE NEW WALL VIEW</string>
 	<string id="31277">USE YOUTRAILER SCRIPT FOR TRAILER IN MOVIE INFO</string>
-	<string id="31278">ALLOW SCROLLING</string>
+	<string id="31278">LAUFTEXT AKTIVIEREN</string>
 	<string id="31279">CONTEXTUAL ARTWORK (FANART) FOR FULLSCREEN INFO PAGES</string>
 	<string id="31280">DEVELOPER MODE</string>
 	<string id="31281">MEDIA FLAGS (STUDIO ICONS, SOURCE INFO, ETC.)</string>
@@ -359,79 +359,79 @@
 	<string id="31293">FILES VIEW SHORTCUT (MOVIE AND TV LIBRARIES)</string>
 	<string id="31294">LARGER KEYBOARD / NUMERIC KEYPAD</string>
 	<string id="31295">IMPROVED LEGIBILITY (LARGER WEATHER, TIME, RSS AND TOTALS)</string>
-	<string id="31296">WEATHER BACKDROP BASED ON SEASONS OF NORTH AMERICA</string>
-	<string id="31297">WEATHER BACKDROP BASED ON SEASONS OF SOUTH AMERICA</string>
+	<string id="31296">WETTERHINTERGRUND JAHRESZEITENBASIEREND VON NORDAMERIKA</string>
+	<string id="31297">WETTERHINTERGRUND JAHRESZEITENBASIEREND VON SÜDAMERIKA</string>
 	<string id="312721">PLAY USING CINEMA EXPERIENCE</string>
-	<string id="312991">ENABLE LATEST ADDED WIDGETS</string>
-	<string id="312992">WEATHER BACKDROP BASED ON CURRENT CONDITIONS</string>
-	<string id="312993">ANIMATED WEATHER ICONS</string>
+	<string id="312991">INFOMENÜ FÜR 'NEUE MEDIEN' ANZEIGEN</string>
+	<string id="312992">WETTERHINTERGRUND BASIEREND AUF AKTUELLER WETTERLAGE</string>
+	<string id="312993">ANIMIERTE WETTERSYMBOLE VERWENDEN</string>
 	<string id="312994">LOWER LATEST ADDED WIDGETS</string>
 	<string id="312995">SHOW LIBRARY TOTALS</string>
-	<string id="313000">LIST: BIG</string>
-	<string id="313001">LIST: SLIM</string>
-	<string id="313002">ORDER: NORMAL</string>
-	<string id="313003">ORDER: RANDOM</string>	
-	<string id="313004">INFO PANEL</string>
+	<string id="313000">LISTE: GROß</string>
+	<string id="313001">LISTE: KOMPAKT</string>
+	<string id="313002">ANORDNUNG: NORMAL</string>
+	<string id="313003">ANORDNUNG: ZUFÄLLIG</string>	
+	<string id="313004">INFORMATIONSTAFEL</string>
 	<string id="313005">ON DOWN: TRAILER</string>
 	<string id="313006">ON DOWN: SCROLLBAR</string>
 	<string id="313007">USE ENTER/RIGHT ARROW TO PROCEED</string>
-  <string id="313008">ENABLING MULTIPLE VIEWS MAY SLOW NAVIGATION</string>
-  <string id="313009">ENABLING THIS OPTION MAY SLOW NAVIGATION</string>
- 	<string id="313011">USE BACKGROUNDS IN 720P (FASTER)</string>
-	<string id="313012">USE BACKGROUNDS IN 1080P (BETTER QUALITY)</string>
+  <string id="313008">ZUSÄTZLICH AKVITIERTE DARSTELLUNGEN KÖNNEN DIE NAVIGATION VERLANGSAMEN</string>
+  <string id="313009">DIE AKTIVIERUNG DIESER OPTION KANN DIE NAVIGATION VERLANGSAMEN</string>
+	<string id="313011">HINTERGRUNDBILDER IN 720P (SCHNELLER)</string>
+	<string id="313012">HINTERGRUNDBILDER IN 1080P (HÖHERE QUALITÄT)</string>
 	<string id="313013">EQUAL TO MENU BAR</string>
-  <string id="313014">STYLE OF RECENTLY ADDED EQUAL MENU BAR</string>
-  <string id="313015">VIEW SLIDESHOW DURING MUSIC PLAYBACK IN HOME MENU</string>
+  <string id="313014">DESIGN FÜR DAS INFOMENÜ 'NEUE MEDIEN' PASSEND ZUM HAUPTMENÜ VERWENDEN</string>
+	<string id="313015">DIASCHAU WÄHREND DER MUSIKWIEDERGABE ANZEIGEN</string>
   <string id="313016">CLICK TO SELECT THE LOCATION OF IMAGES</string>
-  <string id="313017">VIEW FANART DURING MUSIC PLAYBACK (PREFER FANART TO SLIDESHOW)</string>
-  <string id="313018">EXTRA PANEL</string>
-  <string id="313019">EXTRA OPTIONS</string>
+	<string id="313017">FANART WÄHREND DER MUSIKWIDERGABE ANZEIGEN (PRIORITÄT FÜR FANART ZUR DIASCHAU)</string>
+  <string id="313018">ZUSATZMENÜ</string>
+  <string id="313019">ZUSATZOPTIONEN</string>
   <string id="313020">LYRICS SCRIPT</string>
   <string id="313021">CLICK TO SELECT THE SCRIPT</string>
   <string id="313022">SELECT ANOTHER</string>
-  <string id="313023">GET LOGO/CLEARART</string>
-  <string id="313024">TVPOSTER MODE</string>
-  <string id="313025">LANDSCAPE/CLEARART</string>
-  <string id="313026">RUN TV TUNES</string>
-  <string id="313027">ON TV TUNES</string>
+  <string id="313023">LOGO / CLEARART HERUNTERLADEN</string>
+  <string id="313024">TV-COVER MODUS</string>
+  <string id="313025">FANART / CLEARART</string>
+  <string id="313026">TV TUNES AUSFÜHREN</string>
+  <string id="313027">TV TUNES AKTIVIEREN</string>
   <string id="313028">SEASON FANART</string>
-  <string id="313029">PREFER: CLEARART</string>
-  <string id="313030">PREFER: LOGO</string>
-  <string id="313031">SHOW: CLEARART</string>
-  <string id="313032">SHOW: LOGO</string>
-  <string id="313033">MODE: FIXED</string>
-  <string id="313034">MODE: ALTERNATIVE</string>
+  <string id="313029">PRIORITÄT: CLEARART</string>
+  <string id="313030">PRIORITÄT: LOGO</string>
+  <string id="313031">ANZEIGE: CLEARART</string>
+  <string id="313032">ANZEIGE: LOGO</string>
+  <string id="313033">MODUS: FIXIERT</string>
+  <string id="313034">MODUS: ALTERNATIV</string>
 	
 <!-- XBMC Settings Menu headings -->
 	
 	<string id="31300">VIDEO</string>
-	<string id="31301">PICTURES</string>
-	<string id="31302">APPEARANCE</string>
-	<string id="31303">NETWORK</string>
+	<string id="31301">BILDER</string>
+	<string id="31302">DARSTELLUNG</string>
+	<string id="31303">NETZWERK</string>
 	<string id="31304">SYSTEM</string>
-	<string id="31305">MUSIC</string>
-	<string id="31306">WEATHER</string>
-	<string id="31307">PROGRAMS</string>
-	<string id="31308">OPTIONS</string>
+	<string id="31305">MUSIK</string>
+	<string id="31306">WETTER</string>
+	<string id="31307">ANWENDUNGEN</string>
+	<string id="31308">OPTIONEN</string>
 	
 	<!-- Menu Personalization -->
 	
-	<string id="31310">ADD FAVOURITE</string>
-  <string id="31311">ITEMS OF FAVOURITES FULL</string>
-  <string id="31312">ADD VIDEO PLAYLIST</string>
-  <string id="31313">ITEMS OF VIDEO PLAYLISTS FULL</string>
-  <string id="31314">ADD SCRIPT</string>
-  <string id="31315">ITEMS OF SCRIPTS FULL</string>
-  <string id="31316">RENAME</string>
-  <string id="31317">DISABLE</string>
-  <string id="31318">ENABLE</string>
-  <string id="31319">REMOVE</string>
-  <string id="31320">ADD AUDIO PLAYLIST</string>
-  <string id="31321">ITEMS OF AUDIO PLAYLISTS FULL</string>
-  <string id="31322">THIS PLAYLIST CONTAINS:</string>
-  <string id="31323">MOVIES OR SHOWS</string>
-  <string id="31324">TVSHOWS OR ANIMES</string>
-  <string id="31325">OTHER CATEGORIES</string>
+	<string id="31310">FAVORIT HINZUFÜGEN</string>
+		<string id="31311">ITEMS OF FAVOURITES FULL</string>
+	<string id="31312">VIDEO-WIEDERGABELISTE HINZUFÜGEN</string>
+		<string id="31313">ITEMS OF VIDEO PLAYLISTS FULL</string>
+	<string id="31314">SKRIPT HINZUFÜGEN</string>
+		<string id="31315">ITEMS OF SCRIPTS FULL</string>
+  <string id="31316">UMBENENNEN</string>
+  <string id="31317">DEAKTIVIEREN</string>
+  <string id="31318">AKTIVIEREN</string>
+  <string id="31319">ENTFERNEN</string>
+  <string id="31320">MUSIK-WIEDERGABELISTE HINZUFÜGEN</string>
+		<string id="31321">ITEMS OF AUDIO PLAYLISTS FULL</string>
+  <string id="31322">DIESE WIEDERGABELISTE ENTHÄLT:</string>
+	<string id="31323">FILME ODER KONZERTE</string>
+  <string id="31324">TV-SERIEN</string>
+  <string id="31325">ANDERE INHALTE</string>
   <string id="31331">FAV 1</string>
   <string id="31332">FAV 2</string>
   <string id="31333">FAV 3</string>
@@ -442,36 +442,36 @@
   <string id="31338">FAV 8</string>
   <string id="31339">FAV 9</string>
   <string id="31340">FAV 10</string>
-  <string id="31351">VPLAYLIST 1</string>
-  <string id="31352">VPLAYLIST 2</string>
-  <string id="31353">VPLAYLIST 3</string>
-  <string id="31354">VPLAYLIST 4</string>
-  <string id="31355">VPLAYLIST 5</string>
-  <string id="31356">VPLAYLIST 6</string>
-  <string id="31357">VPLAYLIST 7</string>
-  <string id="31358">VPLAYLIST 8</string>
-  <string id="31359">VPLAYLIST 9</string>
-  <string id="31360">VPLAYLIST 10</string>
-  <string id="313511">APLAYLIST 1</string>
-  <string id="313521">APLAYLIST 2</string>
-  <string id="313531">APLAYLIST 3</string>
-  <string id="313541">APLAYLIST 4</string>
-  <string id="313551">APLAYLIST 5</string>
-  <string id="313561">APLAYLIST 6</string>
-  <string id="313571">APLAYLIST 7</string>
-  <string id="313581">APLAYLIST 8</string>
-  <string id="313591">APLAYLIST 9</string>
-  <string id="313601">APLAYLIST 10</string>
-  <string id="31371">SCRIPT 1</string>
-  <string id="31372">SCRIPT 2</string>
-  <string id="31373">SCRIPT 3</string>
-  <string id="31374">SCRIPT 4</string>
-  <string id="31375">SCRIPT 5</string>
-  <string id="31376">SCRIPT 6</string>
-  <string id="31377">SCRIPT 7</string>
-  <string id="31378">SCRIPT 8</string>
-  <string id="31379">SCRIPT 9</string>
-  <string id="31380">SCRIPT 10</string>
+  <string id="31351">VIDEOLISTE 1</string>
+  <string id="31352">VIDEOLISTE 2</string>
+  <string id="31353">VIDEOLISTE 3</string>
+  <string id="31354">VIDEOLISTE 4</string>
+  <string id="31355">VIDEOLISTE 5</string>
+  <string id="31356">VIDEOLISTE 6</string>
+  <string id="31357">VIDEOLISTE 7</string>
+  <string id="31358">VIDEOLISTE 8</string>
+  <string id="31359">VIDEOLISTE 9</string>
+  <string id="31360">VIDEOLISTE 10</string>
+  <string id="313511">AUDIOLISTE 1</string>
+  <string id="313521">AUDIOLISTE 2</string>
+  <string id="313531">AUDIOLISTE 3</string>
+  <string id="313541">AUDIOLISTE 4</string>
+  <string id="313551">AUDIOLISTE 5</string>
+  <string id="313561">AUDIOLISTE 6</string>
+  <string id="313571">AUDIOLISTE 7</string>
+  <string id="313581">AUDIOLISTE 8</string>
+  <string id="313591">AUDIOLISTE 9</string>
+  <string id="313601">AUDIOLISTE 10</string>
+  <string id="31371">SKRIPT 1</string>
+  <string id="31372">SKRIPT 2</string>
+  <string id="31373">SKRIPT 3</string>
+  <string id="31374">SKRIPT 4</string>
+  <string id="31375">SKRIPT 5</string>
+  <string id="31376">SKRIPT 6</string>
+  <string id="31377">SKRIPT 7</string>
+  <string id="31378">SKRIPT 8</string>
+  <string id="31379">SKRIPT 9</string>
+  <string id="31380">SKRIPT 10</string>
 	
 <!--  Fullscreen info panel  -->
 
@@ -485,7 +485,7 @@
 	<string id="31407">PREMIERED</string>
 	<string id="31408">IMDB</string>
 	<string id="31409">TRAILER</string>
-	<string id="31410">RELOAD</string>
+	<string id="31410">AKTUALISIEREN</string>
 	<string id="31411">WATCH</string>
 	<string id="31412">FANART</string>
 	<string id="314121">BACKGROUND</string>
@@ -494,29 +494,29 @@
 	<string id="31414">PLOT DETAILS UNAVAILABLE</string>
 	<string id="31415">BIOGRAPHY UNAVAILABLE</string>
 	<string id="31416">STYLES</string>
-	<string id="31417">RATING</string>
-	<string id="31418">THUMB</string>
-	<string id="31419">REFRESH</string>
+	<string id="31417">BEWERTUNG</string>
+	<string id="31418">VORSCHAU</string>
+	<string id="31419">AKTUALISIEREN</string>
 	<string id="31420">RESUME</string>
-	<string id="31421">PLAY</string>
-	<string id="31422">NOTES</string>
+	<string id="31421">WIEDERGABE</string>
+	<string id="31422">HINWEISE</string>
 	<string id="31423">LABEL</string>
-	<string id="31424">ALBUM REVIEW UNAVAILABLE</string>
-	<string id="31425">INFO UNAVAILABLE</string>
+	<string id="31424">Albeninformation nicht verfügbar</string>
+	<string id="31425">INFORMATIONEN NICHT VERFÜGBAR</string>
 	<string id="31426">TRACK</string>
 	<string id="31427">DURATION</string>
-	<string id="31428">NO COMMENTS</string>
-	<string id="31429">ALBUM INFO</string>
-	<string id="31430">COMMIT</string>
+	<string id="31428">KEINE KOMMENTARE</string>
+	<string id="31429">ALBENINFORMATION</string>
+	<string id="31430">FERTIG</string>
 	<string id="31431">PUSH UP OR DOWN TO CHANGE RATING[CR]USE COMMIT TO FIX</string>
-	<string id="31432">SEASON</string>
+	<string id="31432">STAFFEL</string>
 	<string id="31433">EPISODE</string>
-	<string id="31434">DURATION</string>
+	<string id="31434">LAUFZEIT</string>
 	<string id="31435">CAST DETAILS UNAVAILABLE</string>
-	<string id="31436">YEAR</string>
+	<string id="31436">JAHR</string>
 	<string id="31438">GENRE</string>
-	<string id="31439">WATCHED</string>
-	<string id="31440">UNWATCHED</string>
+	<string id="31439">GESEHEN</string>
+	<string id="31440">UNGESEHEN</string>
 	<string id="31441">DATE INFO UNAVAILABLE</string>
 	<string id="31442">DATE MODIFIED INFO UNAVAILABLE</string>
 	<string id="31443">RESOLUTION INFO UNAVAILABLE</string>
@@ -529,8 +529,8 @@
 	<string id="31450">TAKEN</string>
 	<string id="31451">RESOLUTION</string>
 	<string id="31452">THEME</string>
-	<string id="31453">RATING: STARS</string>
-	<string id="31454">RATING: TEXT</string>
+	<string id="31453">BEWERTUNG: STERNE</string>
+	<string id="31454">BEWERTUNG: TEXT</string>
 		
 <!-- Debug mode -->
 
@@ -541,7 +541,7 @@
 	<string id="31604">CURRENT WINDOW ID:</string>
 	<string id="31605">CURRENT FOCUS:</string>
 	<string id="31606">ACTIVE VIEW TYPE:</string>
-	<string id="31607">REFRESH</string>
+	<string id="31607">AKTUALISIEREN</string>
 	<string id="31608">INFO ON/OFF</string>
 	<string id="31609">LIBRARY EMPTY!</string>
 	<string id="31610">POPULATE IT VIA THE VIDEOS WINDOW IN HOME MENU</string>
@@ -589,126 +589,126 @@
 	<string id="31735">LYRICS SOURCE</string>
 	<string id="31736">CHOOSE YOUR SONG</string>
 	
-<!-- View select -->
+	<!-- Darstellungen -->
 
-	<string id="31750">WALL</string>
-	<string id="31751">SHOWCASE</string>
-	<string id="31752">LIST</string>
-	<string id="31753">PANEL</string>	
+	<string id="31750">WAND</string>
+		<string id="31751">SHOWCASE</string>
+	<string id="31752">LISTE</string>
+	<string id="31753">TAFEL</string>	
 	<string id="31754">SELECT</string>	
 	<string id="31755">DIRECTIONS CHOOSE VIEWS[CR]CLICK TO ESCAPE</string>	
 	<string id="31756">ONLY LIST VIEW IS AVAILABLE FOR EPISODES</string>
 	<string id="31757">MULTIPLEX</string>
-	<string id="31758">LANDSCAPE</string>
-	<string id="31578">STRIPSHOW</string>
-	<string id="31579">LARGE LIST</string>
-	<string id="31580">LOW LIST</string>
-	<string id="31581">CLEAR LIST</string>
-	<string id="31582">OLD MULTIPLEX</string>
-	<string id="31786">MULTIWALL</string>
-	<string id="31787">POSTERS</string>
-	<string id="31788">WIDE</string>
-	<string id="40000">SQUARE</string>
-	<string id="40001">TALL</string>
+	<string id="31758">FANART</string>
+		<string id="31578">STRIPSHOW</string>
+	<string id="31579">GROßE LISTE</string>
+	<string id="31580">TIEFE LISTE</string>
+		<string id="31581">CLEAR LIST</string>
+	<string id="31582">ALTES MULTIPLEX</string>
+	<string id="31786">COVER-LEISTE</string>
+	<string id="31787">COVER</string>
+		<string id="31788">UMFANGREICH</string>
+		<string id="40000">SQUARE</string>
+		<string id="40001">TALL</string>
 	<string id="40002">Manufacturer</string>
 	<string id="40003">Year</string>
 	<string id="40004">WIDE</string>
 	<string id="40005">MARQUEE</string>
 	<string id="40006">BANNER</string>
-	<string id="40007">BANNER 2</string>
+	<string id="40007">BANNER + INFOS</string>
 
 <!-- Aeon Settings panel labels -->
   
-        <string id="31800">MOVIES AND TV SHOWS</string>
-        <string id="31801">VIDEO AND LIBRARY SETTINGS, ENABLE HARDWARE ACCELERATION (DXVA).[CR]ADJUST PLAYBACK, FILE LISTS, SUBTITLES, DVD AND SCRAPER SETTINGS.</string> 
+        <string id="31800">FILME UND TV-SERIEN</string>
+        <string id="31801">EINSTELLUNGEN FÜR VIDEOINHALTE FESTLEGEN UND VERWALTUNG DER BIBLIOTHEK. HARDWARE-BESCHLEUNIGUNG (DXVA) AKTIVIEREN.[CR]WIEDERGABE-, DATEILISTEN-, UNTERTITEL-, UND DVD-EINSTELLUNGEN.</string> 
 
-        <string id="31802">XBMC CATALOG AND PLAY YOUR MUSIC</string>
-        <string id="31803">INFORMATION ARTIST, ALBUM AND TRACK.[CR]RELAX AND LISTEN TO YOUR MUSIC WITH VISUAL EFFECTS.</string> 
+        <string id="31802">MUSIK UND CDS</string>
+        <string id="31803">EINSTELLUNGEN FÜR AUDIOINHALTE FESTLEGEN UND VERWALTUNG DER BIBLIOTHEK.[CR]KONFIGURATION VISUELLER EFFEKTE, KARAOKE UND AUDIO-CDS.</string> 
 
-        <string id="31804">ORGANIZE YOUR PHOTOS</string>
-        <string id="31805">MAKE PRESENTATION SLIDESHOW.[CR]DISPLAY YOUR COLLECTION OF HD OU DIRECTLY FROM A USB STICK.</string> 
+        <string id="31804">FOTOS ORGANISIEREN</string>
+        <string id="31805">DIASCHAUS WIEDERGEBEN, FAMILIENFOTOS ANSCHAUEN UND ERINNERUNGEN TEILEN.[CR]BILDER KÖNNEN DIREKT VON DER FESTPLATTE ODER Z.B. EINEM USB-STICK ANGEZEIGT WERDEN.</string> 
 
-        <string id="31806">WEATHER FORECAST</string>
-        <string id="31807">SUN OR RAIN ? CHOOSE THREE CITIES AND RECEIVE LIVE WEATHER UPDATES, COURTESY OF WEATHER.COM.[CR]SELECT EITHER IMPERIAL OR METRIC SYSTEM.</string> 
+        <string id="31806">WETTERVORHERSAGE</string>
+        <string id="31807">STÜRMT ODER SCHNEIT ES? SCHEINT DIE SONNE ODER GIEßT ES IN STRÖMEN?[CR]ES KÖNNEN DREI WETTERGEBIETE UND DER WETTERDIENST FESTGELEGT WERDEN.</string> 
 
-        <string id="31808">DATA MANAGEMENT</string>
-        <string id="31809">HIGH CAPACITY REMOVABLE HARD DRIVES ARE IDEAL FOR STORING COLLECTIONS.[CR]XBMC CAN HANDLE THOUSANDS OF FILES FROM DIFFERENT SOURCES.</string> 
+        <string id="31808">LOKALES NETZWERK UND INTERNET</string>
+        <string id="31809">VERWALTUNG VON UPNP-GERÄTEN, NETZWERK-STREAMS, NAS-SYSTEMEN UND SERVERN.[CR]AKTIVIERUNG DER WEB-BENUTZERSCHNITTSTELLE ZUR VERWALTUNG VON MEDIEN.</string> 
 
-        <string id="31810">AUDIO / VIDEO AND SYSTEM HARDWARE SETTINGS</string>
-        <string id="31811">CALIBRATE IMAGE, SELECT AUDIO OUTPUT, ADJUST POWER SETTINGS.[CR]ADJUST INPUT DEVICES, ENABLE DEBUGGING</string> 
+        <string id="31810">AUDIO-, VIDEO- UND HARDWARE-EINSTELLUNGEN</string>
+        <string id="31811">AUFLÖSUNG FESTLEGEN, BILDSCHIRM KALIBRIEREN, EXTERNE AUDIO-RECEIVER UND SOUNDKARTE EINSTELLEN.[CR]EINGABEGERÄTE UND ENERGIESPAREINSTELLUNGEN KONFIGURIEREN.</string> 
 
-        <string id="31812">SUPPLEMENTS FOR XBMC</string>
-        <string id="31813">OBTAIN AND MANAGE ADD-ONS TO COMPLEMENT XMBC.[CR]SCRAPERS MOVIES AND MUSIC BEYOND PLUGINS WITH AUTOMATIC UPDATES.</string> 
+        <string id="31812">ZUSÄTZLICHE MODULE KONFIGURIEREN</string>
+        <string id="31813">BEINAHE UNENDLICHE MÖGLICHKEITEN DURCH ZUSÄTZLICHE MODULE DIE NAHTLOS EINGEBUNDEN WERDEN KÖNNEN.[CR]AUTOMATISIERT INHALTE UND INFORMATIONEN ABRUFEN UND AUTOMATISCHE AKTUALISIERUNGEN FESTLEGEN.</string> 
 
-        <string id="31814">AN EXPERIENCE IN HIGH DEFINITION MEDIA</string>
-        <string id="31815">MEDIA CENTER WITH A SLEEK, MODERN STYLE.[CR]AEON MQ 2 IS THE STATE OF THE ART DIGITAL ENTERTAINMENT.</string> 
+        <string id="31814">MODERNE DARSTELLUNG IN HIGH DEFINITION</string>
+        <string id="31815">SKINS, DESIGNS UND SOUNDS KONFIGURIEREN, SPRACHE UND LÄNDEREINSTELLUNGEN FESTLEGEN.[CR]BILDSCHIRMSCHONER UND GRUNDSÄTZLICHE OPTIONEN KONFIGURIEREN.</string> 
 
-        <string id="31816">MEMBERS OF YOUR FAMILY WILL LOVE</string>
-        <string id="31817">SUPPORT FOR MULTIPLE USERS, LOGIN CUSTOMIZE AND SAVE YOUR SETTINGS.[CR]SEPARATE RSS FEEDS, COLLECTIONS AND VIEWING OPTIONS CAN BE USED.</string> 
+        <string id="31816">EIGENE EINSTELLUNGEN FÜR JEDEN</string>
+        <string id="31817">BENUTZERKONTEN KONFIGURIEREN, PASSWÖRTER FESTLEGEN:[CR]GETRENNTE EINSTELLUNGEN, INHALTE UND OPTISCHE DARSTELLUNG FÜR JEDEN BENUTZER.</string> 
 
-        <string id="31818">SELECT THE OPTIONS THAT INTEREST YOU</string>
-        <string id="31819">RECOMPOSITIONS DO WITH ONE TOUCH OF NAVIGATION IN AN AEON MQ 2 TRANQUILLITY.[CR]PRESS UP OR DOWN AND ALL ITEMS REORGANIZE AUTOMATICALLY.</string> 
+        <string id="31818">MENÜS UND INHALTE NACH GESCHMACK</string>
+        <string id="31819">EIGENE MENÜPUNKTE, VERKNÜPFUNGEN UND ELEMENTE FESTLEGEN UND KONFIGURIEREN.[CR]OPTISCHE ANPASSUNGEN, WIEDERGABEEINSTELLUNGEN UND HINTERGRÜNDE FESTLEGEN.</string> 
         
-        <string id="31820">COLLECTIONS WITH CUSTOM VISUAL</string>
-      	<string id="31821">CHOOSE WHO VISUAL STYLES. WISH TO USE[CR]MOVIES, SERIES, SHOWS, TRAILERS OR VIDEOS, EACH COLLECTION MAY HAVE A DIFFERENT VISUAL.</string>
+        <string id="31820">BIBLIOTHEKEN MIT EIGENEM ERSCHEINUNGSBILD</string>
+      	<string id="31821">OPTISCHE DARSTELLUNG FÜR DIE UNTERSCHIEDLICHEN BIBLIOTHEKEN FESTLEGEN.[CR]FILME, TV-SERIEN, KONZERTE, TRAILER, MUSIK ODER VIDEOS - ALLES IST ANPASSBAR.</string>
 
-        <string id="31822">IMPROVE YOUR EXPERIENCE WITH SKIN AEON MQ 2</string>
-        <string id="31823">FINE ADJUSTMENTS TO PROVIDE AN AMAZING VISUAL.[CR]DETAILS THAT ONLY A MINIMAL AEON MQ 2 CAN OFFER.</string> 
+        <string id="31822">EINSTELLUNGEN FÜR MAXIMALEN KOMFORT</string>
+        <string id="31823">SYMBOLE EIN- ODER AUSBLENDEN, KIOSK-MODUS UND FANARTS AKTIVIEREN.[CR]LEISTUNG ANPASSEN, QUALITÄT FESTLEGEN UND EXTRAS KONFIGURIEREN.</string> 
         
 	
 <!-- Home mod 31850 to 31880 -->
 
 	<string id="31850">PLUGINS</string>
 	<string id="31854">PARTY</string>
-	<string id="31855">ALARM</string>
-	<string id="31856">TIMER</string>
-	<string id="31862">ALARM OFF</string>
-	<string id="31857">New Item</string>
-	<string id="31864">Open Playlists</string>
-	<string id="31867">MAIN MENU</string>
-	<string id="31879">RECENTLY ADDED</string>
-	<string id="31866">Album Review</string>
-  <string id="31868">NEXT SONGS</string>
-  <string id="31869">MOVE MENU</string>
+		<string id="31855">ALARM</string>
+		<string id="31856">TIMER</string>
+		<string id="31862">ALARM AUS</string>
+	<string id="31857">NEU</string>
+	<string id="31864">WIEDERGABELISTEN ÖFFNEN</string>
+	<string id="31867">HAUPTMENÜ</string>
+	<string id="31879">NEUE MEDIEN</string>
+		<string id="31866">Albeninformation</string>
+		<string id="31868">NEXT SONGS</string>
+		<string id="31869">MENÜ BEWEGEN</string>
 
   
 	<!-- Color Selector 31881 to 31910 -->
 
-	<string id="31881">COLOR SELECTOR</string>
-	<string id="31882">CURRENT COLOR</string>
-	<string id="31883">SELECTED COLOR</string>
-	<string id="31884">PRESS ENTER TO SET</string>
-	<string id="31885">MOVE LEFT/RIGHT TO SELECT OTHER</string>
-	<string id="31890">RED</string>
-	<string id="31891">CORAL</string>
-	<string id="31892">CHOCOLATE</string>
-	<string id="31893">SALMON</string>
-	<string id="31894">GOLDEN</string>
-	<string id="31895">LIGHT YELLOW</string>
-	<string id="31896">NONE</string>
-	<string id="31897">LIGHT BLUE</string>
-	<string id="31898">SKY BLUE</string>
-	<string id="31899">OCEAN</string>
-	<string id="31900">TURQUOISE</string>
-	<string id="31901">GREY</string>
-	<string id="31902">BLACK</string>
+	<string id="31881">FARBAUSWAHL</string>
+	<string id="31882">AKTUELLE FARBE</string>
+	<string id="31883">GEWÄHLTE FARBE</string>
+	<string id="31884">AUSWAHL BESTÄTIGEN</string>
+	<string id="31885">LINKS ODER RECHTS AUSWÄHLEN UND BESTÄTIGEN</string>
+	<string id="31890">ROT</string>
+	<string id="31891">ROSA</string>
+	<string id="31892">ORANGE</string>
+	<string id="31893">APRICOT</string>
+	<string id="31894">GELB</string>
+	<string id="31895">HELLGELB</string>
+	<string id="31896">KEINE</string>
+	<string id="31897">HELLBLAU</string>
+	<string id="31898">BLAU</string>
+	<string id="31899">MINTGRÜN</string>
+	<string id="31900">TÜRKIS</string>
+	<string id="31901">GRAU</string>
+	<string id="31902">SCHWARZ</string>
 	
-<!-- Submenu / Objects -->
+	<!-- Untermenü / Objekte -->
 
-	<string id="31920">RECENT</string>
-	<string id="31921">TITLES</string>
-	<string id="31933">SHOWS</string>
-	<string id="31935">ITEMS</string>
+	<string id="31920">NEUE</string>
+	<string id="31921">TITEL</string>
+	<string id="31933">KONZERTE</string>
+	<string id="31935">ELEMENTE</string>
 	<string id="31936">TRACKS</string>
-	<string id="31937">LAST PLAYED</string>
-	<string id="32001">SIDE TAB</string>
-	<string id="32002">SHOW LIBRARY STATS</string>
-	<string id="32003">ENABLE PROGRESS BAR TO PLAY MUSIC</string>
-	<string id="32004">ENABLE HOME VIDEO WINDOW</string>
+	<string id="31937">ZULETZT WIEDERGEGEBEN</string>
+	<string id="32001">SEITLICHE REGISTERKARTE</string>
+	<string id="32002">INFOS ZU DEN MEDIENBIBLIOTHEKEN (ANZAHL DER FILME USW.) ANZEIGEN</string>
+	<string id="32003">FORTSCHRITTSBALKEN WÄHREND DER MUSIKWIEDERAGE ANZEIGEN</string>
+	<string id="32004">VIDEOFENSTER ANZEIGEN</string>
 	<string id="32005">USE TV POSTERS FOR MULTIPLEX / MULTIWALL</string>
 	<string id="32006">USE CD/DVD CASES</string>
-	<string id="32007">FAST SCROLLING LETTERS</string>
-	<string id="32008">Global RSS</string>
+	<string id="32007">SCHNELLER LAUFTEXT</string>
+	<string id="32008">NACHRICHTENTICKER</string>
 	<string id="32009">Title Mod for TVShows in Multiplex</string>
 	<string id="32010">Fixed List For Flat Showcase</string>
 	<string id="32011">Show Source Flag instead of Codec Flag</string>
@@ -719,29 +719,29 @@
 	<string id="32016">SET MUSIC FOLDER</string>
 	<string id="32017">BLACK BACKGROUND DURING THE VIEWING OF AUDIO</string>
 	<string id="32018">Activate CDArt</string>
-	<string id="32019">USE PAUSED LABEL</string>
+	<string id="32019">'PAUSE' EINBLENDEN</string>
 	<string id="32020">SELECTION AND DESIGN</string>
 	<string id="32021">SET FALLBACK IMAGE FOR MUSIC</string>
-	<string id="32022">Enable Time and Date</string>
+	<string id="32022">DATUM UND UHRZEIT</string>
 	<string id="32023">Labels and Cover / CDArt DURING THE VIEWING OF AUDIO</string>
-	<string id="32024">Show "Next Playing"</string>
-	<string id="32025">- Prefer "Next Playing" To "Recently Added" Widget</string>
-	<string id="32026">- Show 10 instead of 5 Next Playing Tracks</string>
-	<string id="32027">MANAGE THE ADD-ONS</string>
+	<string id="32024">'ALS NÄCHSTES'-MENÜ ANZEIGEN</string>
+	<string id="32025"> - 'ALS NÄCHSTES'-ANZEIGE DER 'NEUE MEDIEN'-ANZEIGE BEVORZUGEN</string>
+	<string id="32026"> - DIE 10 NÄCHSTEN STATT 5 NÄCHSTEN ANZEIGEN</string>
+	<string id="32027">ADD-ONS VERWALTEN</string>
   <string id="32028">INSTALL/UNINSTALL ADD-ONS</string>
   <string id="32029">ENABLE/DISABLE ADD-ONS</string>
-  <string id="32030">CHANGING PATTERN OPTIONS</string>
+	<string id="32030">SPEZIFISCHE OPTIONEN</string>
   <string id="32031">ADD-ON UPGRADE ONLINE</string>
-  <string id="32032">USE FANART IMAGES FROM COLLECTION TO ITEM 'MOVIES' IN THE MAIN MENU</string>
-  <string id="32033">USE FANART IMAGES FROM COLLECTION TO ITEM 'TV SHOWS' IN THE MAIN MENU</string>
-  <string id="32034">USE FANART IMAGES FROM COLLECTION TO ITEM 'SHOWS' IN THE MAIN MENU</string>
-  <string id="32035">SHOW ADD-ON FANART</string>
-  <string id="32036">ENABLE MOVEMENT THE MAIN MENU USING ARROW UP/DOWN</string>
-  <string id="32037">ENABLE AUTOMATIC UPDATE OF ADD-ONS</string>
-  <string id="32038">ENABLE AUTOMATIC UPDATE OF SKIN</string>
-  <string id="32039">VIEW NOTIFICATION OF UPDATE OF SKIN</string>
-  <string id="32040">VIEW NOTIFICATION OF UPDATE OF ADD-ONS</string>
-  <string id="32041">VIEW NOW PLAYING</string>
+  <string id="32032">FANARTS FÜR DEN MENÜPUNKT 'FILME' AUS DER BIBLIOTHEK VERWENDEN</string>
+  <string id="32033">FANARTS FÜR DEN MENÜPUNKT 'TV-SERIEN' AUS DER BIBLIOTHEK VERWENDEN</string>
+  <string id="32034">FANARTS FÜR DEN MENÜPUNKT 'SHOWS' AUS DER BIBLIOTHEK VERWENDEN</string>
+  <string id="32035">ADD-ON FANART ANZEIGEN</string>
+  <string id="32036">BEWEGLICHE HAUPTMENÜLEISTE (HOCH / RUNTER)</string>
+  <string id="32037">AUTOMATISCHE AKTUALISIERUNGEN FÜR ADD-ONS AKTIVIEREN</string>
+  <string id="32038">AUTOMATISCHE AKTUALSIERUNGEN FÜR SKINS AKTIVIEREN</string>
+  <string id="32039">HINWEIS AUF VORHANDENE AKTUALISIERUNGEN FÜR SKINS AKTIVIEREN</string>
+  <string id="32040">HINWEIS AUF VORHANDENE AKTUALISIERUNGEN FÜR ADD-ONS AKTIVIEREN</string>
+	<string id="32041">'AKTUELLE WIEDERGABE'</string>
   <string id="32042">SHOW AUDIO LANGUAGE FLAG</string>
   <string id="32043">- PREFER AUDIO LANGUAGE FLAG INSTEAD OF ASPECT FLAG</string>
   
@@ -750,19 +750,19 @@
     <string id="32300">Welcome to Aeon MQ 2.[CR]Get ready for a new concept in Aeon, with many innovations.[CR]Everything's ready to start but be sure to check the new settings available[CR]to be able to harness the full potential of the skin and leaves you there by your favorite way.</string>
     <string id="32301">Press ESC to continue and Having Fun!</string>
     
-        <!-- Start Mode-->
+	<!-- Start-Modus -->
         
-  <string id="32319">COMPACT MODE</string>
-  <string id="32320">NORMAL MODE</string>
-  <string id="32321">FULL MODE</string>
-  <string id="32322">BEFORE YOU BEGIN, AS HOPES TO USE A SKIN?</string>
-  <string id="32323">To change again go to Settings / Advanced / Performance</string>
-  <string id="32324">In this mode, the skin only allows to customize items already in the main menu. If you do not need a new menu or want faster browsing select this mode. No need to restart XBMC.</string>
-  <string id="32325">In this mode the skin allows to include up to 7 new menus and 35 new custom submenus. If you do not need some tweaking or you want a good browsing speed select this mode. No need to restart XBMC.</string>
-  <string id="32326">In this way the skin enables the inclusion up to 35 new menus and new 310 custom submenus. If you prefer a super customization, select this mode. No need to restart XBMC.</string>
-  <string id="32327">CLICK TO ENABLE</string>
-  <string id="32328">USE SKIN IN COMPACT MODE (LOWER MAIN MENU CUSTOMIZATION AND MORE SPEED)</string>
-  <string id="32329">USE SKIN IN NORMAL MODE (MAIN MENU CUSTOMIZATION GOOD AND GOOD SPEED)</string>
-  <string id="32330">USE SKIN IN FULL MODE (MORE CUSTOMIZABLE)</string>
-  
+	<string id="32319">MINIMALER MODUS</string>
+	<string id="32320">NORMALER MODUS</string>
+	<string id="32321">MAXIMALER MODUS</string>
+	<string id="32322">IN WELCHEM MODUS SOLL AEON MQ VERWENDET WERDEN?</string>
+	<string id="32323">Nachträgliche Modus-Wahl erfolgt über die Einstellungen / Erweitert / Leistung</string>
+	<string id="32324">Der minimale Modus erlaubt die Anpassung bereits vorhandener Elemente des Hauptmenüs.[CR][CR]+ Schnellere Navigation[CR]- Keine neuen Menüs / Untermenüs</string>
+	<string id="32325">Im normalen Modus können zusätzliche Anpassungen vorgenommen und neue Elemente hinzugefügt werden.[CR][CR]+ Bis zu 7 zusätzliche Menüs[CR]+ Bis zu 35 zusätzliche Untermenüs[CR]- Keine extra Einstellungen</string>
+	<string id="32326">Der maximale Modus bietet die umfangreichsten Einstellmöglichkeiten und Anpassungen.[CR][CR]+ Bis zu 35 zusätzliche Menüs[CR]+ Bis zu 310 zusätzliche Untermenüs[CR]+ Umfangreiche Anpassungen[CR]- Benötigt viel Rechenleistung</string>
+	<string id="32327">ZUM AKTIVIEREN BESTÄTIGEN</string>
+	<string id="32328">MINIMALER MODUS: WENIGE ANPASSUNGEN / SCHNELLE NAVIGATION</string>
+	<string id="32329">NORMALER MODUS: ZUSÄTZLICHE ANPASSUNGEN / AUSGEWOGENE RECHENLEISTUNG</string>
+	<string id="32330">MAXIMALER MODUS: UMFANGREICHE ANPASSUNGEN / HOHE RECHENLEISTUNG</string>
+
 </strings>
