@@ -4,8 +4,9 @@
 <!-- Stand der Übersetzung: 19.02.2011 -->
 	<!-- Eingerückte Zeilen sind noch unklar in ihrer Übersetzung. Diese Strings müssen in ihrer Erscheinung direkt in der Skin-Ansicht geprüft werden -->
 <!--  Strings 31000 bis 31999 reserviert für Skin  -->
+
 <strings>
-	<string id="31001">NICHT VERFÜGBAR</string>
+	<string id="31001">N/A</string>
 	<string id="31002">STUMM</string>
 	<string id="31004">HINTERGRUND[CR]ZURÜCKSETZEN</string>
 	<string id="31005">ELEMENTE</string>
@@ -139,7 +140,7 @@
 	<string id="310834">VORSCHAU: EPISODE</string>
 	<string id="310835">VORSCHAU: FANART</string>
 	
-	<!-- Aeon Customisation Virtual Home page labels SOWEIT FERTIG-->
+	<!-- Aeon Customisation Virtual Home page labels SOWEIT FERTIG SCHEINBAR UNGENUTZT STRINGS-->
   
 	<string id="31080">HINTERGRÜNDE</string>
 	<string id="31081">HINTERGRUND ÄNDERN</string>
@@ -173,7 +174,7 @@
 	<string id="311044">NACH OBEN / UNTEN ZUM WÄHLEN / MIT AUSWAHL BESTÄTIGEN</string>
 	<string id="311045">MENÜOPTIONEN</string>
 	<string id="311046">WIEDERGABE</string>
-		<string id="311047">CREATE AND EDIT NEW MENUS AND NEW SUBMENUS</string>
+	<string id="311047">NEUE MENÜS UND UNTERMENÜS ERSTELLEN UND BEARBEITEN</string>
 	<string id="31105">WETTER / UHRZEIT</string>
 	<string id="31106">STILE / FARBEN</string>
 	<string id="31107">STIL UND FARBE DES HAUPTMENÜS FESTLEGEN</string>
@@ -182,12 +183,12 @@
 		<string id="31110">CLASSIC</string>
 	<string id="31111">STIL</string>
 	<string id="31112">ZUR INDIVIDUELLEN ANPASSUNG, OPTION FÜR PASSENDES DESIGN ZUM HAUPTMENÜ DEAKTIVIEREN</string>
-		<string id="31113">SELECT TO ALLOCATE THE RECENTLY ADDED BELOW THE MENU BAR</string>
-		<string id="31114">SELECT TO ALLOCATE THE RECENTLY ADDED ABOVE THE MENU BAR</string>
+	<string id="31113">AUSWÄHLEN UM DIE INFOTABLLE 'NEUE MEDIEN' UNTERHALB DER MENÜLEISTE ZU POISTIONIEREN</string>
+	<string id="31114">AUSWÄHLEN UM DIE INFOTABLLE 'NEUE MEDIEN' OBERHALB DER MENÜLEISTE ZU POISTIONIEREN</string>
 	<string id="31115">AKTUELLER STIL</string>
 	<string id="31116">NACH OBEN ZUM WÄHLEN / BESTÄTIGEN ZUM ÄNDERN</string>
-		<string id="31117">SELECT TO COUPLE LIBRARY STATS</string>
-		<string id="31118">SELECT TO UNCOUPLE LIBRARY STATS</string>
+	<string id="31117">AUSWÄHLEN UM DIE STATISTIKLEISTE ANZUKOPPELN</string>
+	<string id="31118">AUSWÄHLEN UM DIE STATISTIKLEISTE ABZUTRENNEN</string>
 	<string id="31119">STILRICHTUNG FESTLEGEN</string>
 
 	<!-- Aeon Anpassungen FERTIG-->
@@ -236,11 +237,11 @@
 	<string id="31167">DARSTELLUNGEN</string>
 	<string id="31168">MEDIENBIBLIOTHEKEN</string>
 
-	<!--  Kontextmenü / Systemmenü  SOWEIT FERTIG--> 
+	<!--  Kontextmenü / Systemmenü FERTIG--> 
 
 	<string id="31200">EINSTELLUNGEN</string> 
 	<string id="31201">ANPASSUNGEN</string>
-		<string id="31202">ASSISTANT</string> 
+		<string id="31202">ASSISTENT</string> 
 		<string id="31203">HAUPTSEITE VISUELL (VIDEO): AUS</string>
 		<string id="31204">HAUPTSEITE VISUELL (VIDEO): AN</string>
 		<string id="312030">HAUPTSEITE VISUELL (AUDIO): AUS</string>
@@ -291,20 +292,20 @@
 		<string id="312476">VISUALISATION/OSD</string>
 	<string id="312477">KONZERTE</string>
 	<string id="312478">TRAILER</string>
-		<string id="31248">MENU ITEMS</string>
-		<string id="312480">CREATE OWN MENU ITEMS</string>
+	<string id="31248">MENÜPUNKTE</string>
+	<string id="312480">EIGENE MENÜPUNKTE ERSTELLEN</string>
 		<string id="31254">4 DAY</string>
 		<string id="31255">36 HOUR </string>
-		<string id="31256">WEEKEND</string>
-		<string id="31257">ANIMATE</string>
+	<string id="31256">WOCHENENDE</string>
+	<string id="31257">ANIMIEREN</string>
 	<string id="31258">UNTERMENÜ</string>
 		<string id="31259">(DE)ACTIVATE ITEMS</string>
 		<string id="312571">7 DAY</string>
 		<string id="312572">ALERTS</string>
-		<string id="312573">Press UP to select trailer</string>
-		<string id="312574">Press X to stop</string>
-		<string id="312575">Press ENTER to see trailer</string>
-		<string id="312576">Press RIGHT to play trailer</string>
+	<string id="312573">Nach OBEN um Trailer zu wählen</string>
+	<string id="312574">X um die Wiedergabe zu beenden</string>
+		<string id="312575">EINAGBE um den Trailer zu sehen</string>
+	<string id="312576">Nach RECHTS um den Trailer wiederzugeben</string>
   
 	<!-- Erweiterte Optionen für Aeon SOWEIT FERTIG - SCHEINBAR UNGENUTZTE STRINGS-->
 
@@ -321,7 +322,7 @@
 		<string id="31265">CONTEXTUAL ARTWORK (FANART) FOR TV</string>
 		<string id="31266">CONTEXTUAL ARTWORK FOR PICTURES</string>
 		<string id="31268">SHOW RSS / NOW PLAYING IN WALL VIEW</string>
-		<string id="312694">PLAY USING CINEMA EXPERIENCE (NEEDS CINEMA EXPERIENCE SCRIPT)</string>
+	<string id="312694">WIEDERGABE IM KINOMOUS (CINEMA EXPERIENCE SKRIPT WIRD BENÖTIGT)</string>
 	<string id="312695">'TRAILER' SCHALTFLÄCHE</string>
 		<string id="312696">ENABLE THUMBS FOR TRAILER VIEWS (USES FANART IF DISABLED)</string>
 	<string id="312700">GENRE-SYMBOL FÜR FILME VERWENDEN</string>
@@ -333,7 +334,6 @@
 	<string id="312706">NACHRICHTENTICKER ANZEIGEN</string>
 	<string id="312707">WETTERSYMBOL NEBEN DEN WETTERDATEN ANZEIGEN</string>
 	<string id="312708">DATUM UND UHRZEIT ANZEIGEN</string>
-		<string id="31271">FADE PANEL/LIST VIEW MENUS WHEN INACTIVE</string>
 		<string id="31271">FADE PANEL/LIST VIEW MENUS WHEN INACTIVE</string>
 		<string id="31272">SHOW TAGLINE IN MULTIPLEX</string>
 	<string id="31273">WIEDERGABELISTE BEIM EINSCHALTEN AKTIVIEREN</string>
@@ -380,22 +380,22 @@
 	<string id="313009">DIE AKTIVIERUNG DIESER OPTION KANN DIE NAVIGATION VERLANGSAMEN</string>
 	<string id="313011">HINTERGRUNDBILDER IN 720P (SCHNELLER)</string>
 	<string id="313012">HINTERGRUNDBILDER IN 1080P (HÖHERE QUALITÄT)</string>
-		<string id="313013">EQUAL TO MENU BAR</string>
+	<string id="313013">WIE MENÜLEISTE</string>
 	<string id="313014">DESIGN FÜR DAS INFOMENÜ 'NEUE MEDIEN' PASSEND ZUM HAUPTMENÜ VERWENDEN</string>
 	<string id="313015">DIASCHAU WÄHREND DER MUSIKWIEDERGABE ANZEIGEN</string>
 		<string id="313016">CLICK TO SELECT THE LOCATION OF IMAGES</string>
 	<string id="313017">FANART WÄHREND DER MUSIKWIDERGABE ANZEIGEN (PRIORITÄT FÜR FANART ZUR DIASCHAU)</string>
 	<string id="313018">ZUSATZMENÜ</string>
 	<string id="313019">ZUSATZOPTIONEN</string>
-		<string id="313020">LYRICS SCRIPT</string>
-		<string id="313021">CLICK TO SELECT THE SCRIPT</string>
-		<string id="313022">SELECT ANOTHER</string>
+	<string id="313020">SONGTEXT SKRIPT</string>
+	<string id="313021">AUSWÄHLEN UM SKRIPT FESTZULEGEN</string>
+	<string id="313022">ANDERES WÄHLEN</string>
 	<string id="313023">LOGO / CLEARART RUNTERLADEN</string>
 	<string id="313024">TV-COVER MODUS</string>
 	<string id="313025">FANART / CLEARART</string>
 	<string id="313026">TV TUNES AUSFÜHREN</string>
 	<string id="313027">TV TUNES AKTIVIEREN</string>
-		<string id="313028">SEASON FANART</string>
+	<string id="313028">STAFFEL FANART</string>
 	<string id="313029">PRIORITÄT: CLEARART</string>
 	<string id="313030">PRIORITÄT: LOGO</string>
 	<string id="313031">ANZEIGE: CLEARART</string>
@@ -418,17 +418,17 @@
 	<!-- Menu Personalization SOWEIT FERTIG-->
 	
 	<string id="31310">FAVORIT HINZUFÜGEN</string>
-		<string id="31311">ITEMS OF FAVOURITES FULL</string>
+		<string id="31311">FAVORITEN SIND VOLL</string>
 	<string id="31312">VIDEO-WIEDERGABELISTE HINZUFÜGEN</string>
-		<string id="31313">ITEMS OF VIDEO PLAYLISTS FULL</string>
+		<string id="31313">VIDEOLISTEN SIND VOLL</string>
 	<string id="31314">SKRIPT HINZUFÜGEN</string>
-		<string id="31315">ITEMS OF SCRIPTS FULL</string>
+		<string id="31315">SKRIPTS SIND VOLL</string>
 	<string id="31316">UMBENENNEN</string>
 	<string id="31317">DEAKTIVIEREN</string>
 	<string id="31318">AKTIVIEREN</string>
 	<string id="31319">ENTFERNEN</string>
 	<string id="31320">MUSIK-WIEDERGABELISTE HINZUFÜGEN</string>
-		<string id="31321">ITEMS OF AUDIO PLAYLISTS FULL</string>
+		<string id="31321">AUDIOLISTEN SIND VOLL</string>
 	<string id="31322">DIESE WIEDERGABELISTE ENTHÄLT:</string>
 	<string id="31323">FILME ODER KONZERTE</string>
 	<string id="31324">TV-SERIEN</string>
@@ -474,7 +474,7 @@
 	<string id="31379">SKRIPT 9</string>
 	<string id="31380">SKRIPT 10</string>
 	
-	<!--  Vollbild Informationen  -->
+	<!--  Vollbild Informationen SOWEIT FERTIG - SCHEINBAR UNGENUTZTE STRINGS-->
 
 		<string id="31400">NO POSTER?[CR][CR]CHECK YOU HAVE A SEPARATE "BIG" THUMB[CR]ALONGSIDE YOUR MOVIE FILE AND THAT[CR]THE NAMING CONVENTION IS OBEYED[CR](BARBARELLA.MKV-BIG.PNG)[CR][CR]CHECK THE AEON MANUAL FOR MORE DETAILS</string>
 	<string id="31401">DREHBUCH</string>
@@ -483,17 +483,17 @@
 	<string id="31404">FILMSTUDIO:</string>
 	<string id="31405">DARSTELLER</string>
 	<string id="31406">EPISODEN</string>
-		<string id="31407">PREMIERED</string>
+		<string id="31407">PREMIERE</string>
 	<string id="31408">IMDB</string>
 	<string id="31409">TRAILER</string>
 	<string id="31410">AKTUALISIEREN</string>
 		<string id="31411">WATCH</string>
 	<string id="31412">FANART</string>
 		<string id="314121">BACKGROUND</string>
-		<string id="314122">BACK</string>
+		<string id="314122">ZURÜCK</string>
 	<string id="31413">STIMMUNG</string>
-		<string id="31414">PLOT DETAILS UNAVAILABLE</string>
-		<string id="31415">BIOGRAPHY UNAVAILABLE</string>
+	<string id="31414">KEINE INFORMATIONEN ZUM INHALT VERFÜGBAR</string>
+	<string id="31415">KEINE BIOGRAFIE VERFÜGBAR</string>
 	<string id="31416">STIL</string>
 	<string id="31417">BEWERTUNG</string>
 	<string id="31418">VORSCHAU</string>
@@ -513,22 +513,22 @@
 	<string id="31432">STAFFEL</string>
 	<string id="31433">EPISODE</string>
 	<string id="31434">LAUFZEIT</string>
-		<string id="31435">CAST DETAILS UNAVAILABLE</string>
+	<string id="31435">KEINE INFORMATIONEN VERFÜGBAR</string>
 	<string id="31436">JAHR</string>
 	<string id="31438">GENRE</string>
 	<string id="31439">GESEHEN</string>
 	<string id="31440">UNGESEHEN</string>
-		<string id="31441">DATE INFO UNAVAILABLE</string>
-		<string id="31442">DATE MODIFIED INFO UNAVAILABLE</string>
-		<string id="31443">RESOLUTION INFO UNAVAILABLE</string>
-		<string id="31444">FILESIZE INFO UNAVAILABLE</string>
-		<string id="31445">ASPECT RATIO</string>
+	<string id="31441">ERSTELLDATUM NICHT VERFÜGBAR</string>
+	<string id="31442">ÄNDERUNGSDATUM NICHT VERFÜGBAR</string>
+	<string id="31443">AUFLÖSUNG NICHT VERFÜGBAR</string>
+	<string id="31444">DATEIGRÖßE NICHT VERFÜGBAR</string>
+	<string id="31445">SEITENVERHÄLTNIS</string>
 		<string id="31446">FORMATION</string>
 	<string id="31447">MINUTEN</string>
-		<string id="31448">YEARS OF ACTIVITY</string>
-	<string id="31449">ÄNDERUNGSDATUM</string>
-	<string id="31450">ERSTELLDATUM</string>
-	<string id="31451">ABMESSUNGEN</string>
+	<string id="31448">AKTIVE JAHRE</string>
+	<string id="31449">GEÄNDERT</string>
+	<string id="31450">ERSTELLT</string>
+	<string id="31451">AUFLÖSUNG</string>
 		<string id="31452">THEME</string>
 	<string id="31453">BEWERTUNG: STERNE</string>
 	<string id="31454">BEWERTUNG: ZAHLEN</string>
@@ -542,15 +542,15 @@
 	<string id="31604">AKTUELLE FENSTER-ID:</string>
 	<string id="31605">AKTUELL AKVITIERT:</string>
 		<string id="31606">ACTIVE VIEW TYPE:</string>
-	<string id="31607">AKTUALISIEREN</string>
+	<string id="31607">NEU LADEN</string>
 	<string id="31608">INFO AN / AUS</string>
-		<string id="31609">LIBRARY EMPTY!</string>
-		<string id="31610">POPULATE IT VIA THE VIDEOS WINDOW IN HOME MENU</string>
+	<string id="31609">KEINE INHALTE</string>
+	<string id="31610">MEDIEN ÜBER 'VIDEOS' IM HAUPTMENÜ HINZUFÜGEN</string>
 		<string id="31611">POPULATE IT VIA THE FILES WINDOW</string>
-		<string id="31612">PLUGIN APPLE MOVIE TRAILER LITE NOT INSTALLED!</string>
+	<string id="31612">DAS PLUGIN 'APPLE MOVIE TRAILER LITE' IST NICHT INSTALLIERT</string>
 		<string id="31613">ACTIVE OR INSTALL PLUGIN FOR ADD-ONS OPTION</string>
 	
-	<!-- OSD -->
+	<!-- OSD FERTIG-->
 
 	<string id="31700">CODEC</string>
 	<string id="31701">BITRATE</string>
@@ -564,7 +564,7 @@
 	<string id="31709">LÄNGE</string>
 	<string id="31710">ENDE</string>
 	<string id="31711">LESEZEICHEN VORHANDEN</string>
-		<string id="31712">UP/DOWN: MENU/BOOKMARKS[CR]LEFT/RIGHT: MENU OPTIONS</string>
+	<string id="31712">NACH OBEN / UNTEN: MENÜ / LESEZEICHEN[CR]NACH LINKS / RECHTS: MENÜOPTIONEN</string>
 	<string id="31713">ELEMENTE IN DER WIEDERGABELISTE:</string>
 	<string id="31714">AKTUELLE POSITION:</string>
 	<string id="31715">ZURÜCK</string>
@@ -582,16 +582,16 @@
 	<string id="31727">STOPP</string>
 	<string id="31728">AUDIO</string>
 	<string id="31729">VIDEO</string>
-	<string id="31730">LYRICS</string>
+	<string id="31730">SONGTEXT</string>
 	<string id="31731">VISUALISIERUNG</string>
 	<string id="31732">AUFNAHME</string>
 	<string id="31733">ABBRECHEN</string>
 	<string id="31734">ALS NÄCHSTES</string>
-		<string id="31735">LYRICS SOURCE</string>
-		<string id="31736">CHOOSE YOUR SONG</string>
+	<string id="31735">SONGTEXT QUELLE</string>
+	<string id="31736">SONG WÄHLEN</string>
 	<string id="31737">VORHER LIEF:</string>
 	
-	<!-- Darstellungen -->
+	<!-- Darstellungen SOWEIT FERTIG - SCHEINBAR UNGENUTZTE STRINGS-->
 
 	<string id="31750">WAND</string>
 	<string id="31751">SHOWCASE</string>
@@ -622,10 +622,10 @@
 	<!-- Aeon Settings panel labels FERTIG-->
   
         <string id="31800">FILME UND TV-SERIEN</string>
-        <string id="31801">EINSTELLUNGEN FÜR VIDEOINHALTE FESTLEGEN UND VERWALTUNG DER BIBLIOTHEK. HARDWARE-BESCHLEUNIGUNG (DXVA) AKTIVIEREN.[CR]WIEDERGABE-, DATEILISTEN-, UNTERTITEL-, UND DVD-EINSTELLUNGEN.</string> 
+        <string id="31801">EINSTELLUNGEN FÜR VIDEOINHALTE, VERWALTUNG DER BIBLIOTHEK UND HARDWARE-BESCHLEUNIGUNG.[CR]WIEDERGABE-, DATEILISTEN-, UNTERTITEL-, UND DVD-EINSTELLUNGEN.</string> 
 
         <string id="31802">MUSIK UND CDS</string>
-        <string id="31803">EINSTELLUNGEN FÜR AUDIOINHALTE FESTLEGEN UND VERWALTUNG DER BIBLIOTHEK.[CR]KONFIGURATION VISUELLER EFFEKTE, KARAOKE UND AUDIO-CDS.</string> 
+        <string id="31803">EINSTELLUNGEN FÜR AUDIOINHALTE UND VERWALTUNG DER BIBLIOTHEK.[CR]KONFIGURATION VISUELLER EFFEKTE, KARAOKE UND AUDIO-CDS.</string> 
 
         <string id="31804">FOTOS ORGANISIEREN</string>
         <string id="31805">DIASCHAUS WIEDERGEBEN, FAMILIENFOTOS ANSCHAUEN UND ERINNERUNGEN TEILEN.[CR]BILDER KÖNNEN DIREKT VON DER FESTPLATTE ODER Z.B. EINEM USB-STICK ANGEZEIGT WERDEN.</string> 
@@ -669,7 +669,7 @@
 	<string id="31864">WIEDERGABELISTEN ÖFFNEN</string>
 	<string id="31867">HAUPTMENÜ</string>
 	<string id="31879">NEUE MEDIEN</string>
-	<string id="31866">Albeninformation</string>
+	<string id="31866">Albeninformation</string><!-- NICHT IN GROßBUCHSTABEN! -->
 	<string id="31868">NÄCHSTE TITEL</string>
 	<string id="31869">MENÜ BEWEGEN</string>
 
@@ -695,7 +695,7 @@
 	<string id="31901">GRAU</string>
 	<string id="31902">SCHWARZ</string>
 	
-	<!-- Untermenü / Objekte -->
+	<!-- Untermenü / Objekte SOWEIT FERTIG - SCHEINBAR UNGENUTZTE STRINGS-->
 
 	<string id="31920">NEUE</string>
 	<string id="31921">TITEL</string>
@@ -745,9 +745,9 @@
 	<string id="32040">HINWEIS AUF VORHANDENE AKTUALISIERUNGEN FÜR ADD-ONS AKTIVIEREN</string>
 	<string id="32041">'AKTUELLE WIEDERGABE'</string>
 	<string id="32042">SYMBOL FÜR DIE SPRACHE DER TONSPUR ANZEIGEN</string>
-		<string id="32043">- SYMBOL FÜR DIE SPRACHE DEM SYMBOL FÜR DAS SEITENVERHÄLTNIS BEVORZUGEN</string>
+	<string id="32043">- SYMBOL FÜR DIE SPRACHE DEM SYMBOL FÜR DAS SEITENVERHÄLTNIS BEVORZUGEN</string>
   
-  <!-- Willkommen Dialog -->
+  <!-- Willkommen Dialog FERTIG-->
     
     <string id="32300">Willkommen zu Aeon MQ 2.[CR]Es warten viele Neuerungen, Funktionen und Verbesserungen für Aeon.[CR]Es kann bereits los gehen, die neuen Funktionen sind allerdings einen Blick wert.[CR]Nur so kann das gesamte Potential dieses Skins ausgeschöpft werden.</string>
     <string id="32301">Weiter geht's mit ESC - Viel Spaß!</string>
