@@ -186,9 +186,9 @@
 	<string id="31298">TAFEL: QUADRATISCH</string>
 	<string id="31299">MIN.</string>
 	<string id="31300">MIN.</string>
-		<string id="31301">PLAY RANDOM MOVIE</string><!-- Nicht mehr in Verwendung? -->
-		<string id="31302">PLAY RANDOM EPISODE</string><!-- Nicht mehr in Verwendung? -->
-		<string id="31303">PLAY RANDOM SONG</string><!-- Nicht mehr in Verwendung? -->
+	<string id="31301">Zufälligen Film anschauen</string>
+	<string id="31302">Zufällige Episode anschauen</string>
+	<string id="31303">Zufälligen Song anschauen</string>
 	<string id="31304">Zufällige Wiedergabe ausblenden</string>
 	<string id="31305">Zufällige Wiedergabe ausblenden</string>
 	<string id="31306">Zufällige Wiedergabe ausblenden</string>
