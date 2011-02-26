@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<!-- $Revision: 282$ -->
+<!-- $Revision: 285$ -->
 <!-- Übersetzer: TomPiXX -->
-<!-- Stand der Übersetzung: 25.02.2011 -->
+<!-- Stand der Übersetzung: 26.02.2011 -->
 	<!-- Eingerückte Zeilen sind noch unklar in ihrer Übersetzung. Diese Strings müssen in ihrer Erscheinung direkt in der Skin-Ansicht geprüft werden -->
 
 <strings>
@@ -12,7 +12,7 @@
 	<string id="31004">Debug</string>
 	<string id="31005">Handlung als Lauftext anzeigen</string>
 	<string id="31006">Ausblenden</string>
-		<string id="31007">ON</string>
+	<string id="31007">AN</string>
 	<string id="31008">SORTIERUNG</string>
 	<string id="31009">Musikdateien</string>
 	<string id="31010">Musikbibliothek</string>
@@ -84,7 +84,6 @@
 	<string id="31093">Bilder</string>
 	<string id="31094">Einstellungen ausblenden</string>
 	<string id="31095">Wetter</string>
-		<string id="31096">Old Home Layout</string><!-- Nicht mehr in Verwendung? -->
 	<string id="31097">Morgigen Tag ausblenden</string>
 	<string id="31098">Add-ons ausblenden</string>
 	<string id="31100">Einstellungen ausblenden</string>
@@ -134,19 +133,18 @@
 	<string id="31194">Darstellung</string>
 	<string id="31195">Anschauen</string>
 	<string id="31199">Anzeigen</string>
-		<string id="31200">Change Star Rating</string><!-- Nicht mehr in Verwendung? -->
 	<string id="31207">Aktuell</string>
 	<string id="31208">Letzte Aktualisierung:</string>
 	<string id="31210">Standard</string>
-		<string id="31211">Adjust how XBMC handles video content. Includes stacking options for multi-part files, library database options, and rendering and playback options</string>
-		<string id="31212">Manage your installed Add-ons. Includes browsing and installing from XBMC.org and Add-on modifications.</string>
-		<string id="31213">Control core hardware and software functions. Includes autorun options, audio and video hardware setup, and parental master lock functions</string>
-		<string id="31214">Adjust how XBMC handles audio content. Includes browsing options for file and database library modes, together with audio hardware setup</string>
-		<string id="31215">Set up region information for XBMC's optional Wetter displays</string>
-		<string id="31216">Adjust the look and feel of XBMC. Includes skin, theme, sound and font selection, RSS feed control, and localisation Einstellungen</string>
-		<string id="31217">Adjust how XBMC displays personal image collections. Includes screenshot grabbing, special effects and advanced display options</string>
-		<string id="31218">Set up XBMC's network interface. Controls IP assignment, WWW and FTP server Einstellungen, SMB client setup, and UPnP configuration</string>
-		<string id="31219">Choose from a variety of advanced Einstellungen and customisation options to make the Alaska UI your own</string>
+	<string id="31211">Hier werden Einstellungen für die Videobibliothek, die Videowiedergabe, Hardwarebeschleunigung und die Anzeige von Untertiteln vorgenommen.</string>
+	<string id="31212">Hier werden Add-Ons verwaltet, installiert und konfiguriert. Mit Hilfe von Add-Ons lassen sich zusätzliche Funktionen nutzen.</string>
+	<string id="31213">Hier werden grundlegende Einstellungen für die Hardware vorgenommen. Auflösung, Soundkarte und Eingabegeräte können konfiguriert werden. Dazu kommen Energiespareinstellungen und Sperrfunktionen.</string>
+	<string id="31214">Hier werden Einstellungen für die Musikbibliothek, Visualisierungen, Audio-CDs und Karaokefunktionen vorgenommen.</string>
+	<string id="31215">Hier werden bis zu drei verschiedene Wetterregionen festgelegt und der Wetterdienst konfiguiert.</string>
+	<string id="31216">Hier werden optische Elemente, Darstellung, Farben, Schriftart, Soundeffekte, Sprache, Region, Nachrichtendienste und Bildschirmschoner konfiguriert.</string>
+	<string id="31217">Hier werden Einstellungen für die Bilder vorgenommen. Bildinformationen wie EXIF-Daten, Vorschaubilder und Einstellungen für die Diaschau.</string>
+	<string id="31218">Hier werden Einstellungen für LAN, Internet, UPnP und weitere Netzwerkdienste wie Streaming, Netzwerkfreigaben und die Benutzerschnittstelle vorgenommen.</string>
+	<string id="31219">Hier werden spezifische Einstellungen für Alaska vorgenommen. Eigene Menüpunkte können erstellt, die visuelle Darstellung optimiert und weitere Optionen festgelegt werden.</string>
 	<string id="31234"></string><!-- Muss für 'FSK' ausgeblended werden -->
 	<string id="31235">2x4</string>
 	<string id="31236">4x3</string>
@@ -158,7 +156,6 @@
 	<string id="31249">Musik auswählen</string>
 	<string id="31250">Aktuelle Auswahl</string>
 	<string id="31251">Aktuelle Wiedergabeliste</string>
-		<string id="31252">Create</string><!-- Nicht mehr in Verwendung? -->
 	<string id="31253">Bild festlegen</string>
 	<string id="31268">Länge nicht[CR]verfügbar</string>
 	<string id="31269">Ausschalten ausblenden</string>
